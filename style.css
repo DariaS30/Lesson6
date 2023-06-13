@@ -6,8 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.menu{
+    background-color: #EFEFEF;
+}
+
 .menu, .menu2{
-    background-color: #E5E5E5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +18,8 @@
 }
 
 .menu2{
+    background-color: #FFFFFF;
     border-top: 1px solid #EFEFEF;
-    background-color: #fff;
     gap: 40px;
 }
 
@@ -36,7 +39,7 @@
 }
 
 .promo-block{
-    background: #EFEFEF;
+    background: #FFFFFF;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,6 +131,7 @@
 }
 
 .sp_offers{
+    background: #EFEFEF;
     margin-left: 290px;
     padding: 38px 0;
 }
@@ -188,6 +192,7 @@ ul{
 }
 
 .blocks{
+    background: #EFEFEF;
     color: #fff;
     gap: 30px;
     margin-top: 100px;
@@ -235,7 +240,6 @@ ul{
     border-radius: 30px;
     padding: 9px 35px;
     color: #C4C4C4;
-
 }
 
 .blocks button{
@@ -252,7 +256,9 @@ ul{
     justify-content: center;
     margin-top: 70px;
 }
+
 .impuls_list{
+    background: #FFFFFF;
     display: flex;
     max-width: 1084px;
     flex-wrap: wrap;
@@ -264,6 +270,7 @@ ul{
 }
 
 .viewed{
+    background: #EFEFEF;
     margin-left: 290px;
     padding: 38px 0;
 }
@@ -276,6 +283,7 @@ ul{
 }
 
 .categories{
+    background: #FFFFFF;
     gap: 140px;
     display: flex;
     justify-content: center;
@@ -299,7 +307,7 @@ ul{
 }
 
 .contact{
-    background: #EFEFEF;
+    background: #FFFFFF;
     display: flex;
     justify-content: space-around;
     align-items: center;
