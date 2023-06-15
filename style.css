@@ -7,7 +7,7 @@
 }
 
 .menu{
-    background-color: #EFEFEF;
+    background-color: #C4C4C4;
 }
 
 .menu, .menu2{
@@ -19,7 +19,7 @@
 
 .menu2{
     background-color: #FFFFFF;
-    border-top: 1px solid #EFEFEF;
+    border-top: 1px solid #C4C4C4;;
     gap: 40px;
 }
 
@@ -131,23 +131,28 @@
 }
 
 .sp_offers{
-    background: #EFEFEF;
-    margin-left: 290px;
-    padding: 38px 0;
+    background-color: #C4C4C4;
+    padding: 80px 0 38px 0;
+
 }
 
-.sp_offers-item{
+.sp_offers > .sp_offers-item{
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    width: 80%;
+    margin: 0 auto;
+    /* margin-bottom: 40px; */
 }
  
-ul{
-    background: #EFEFEF;
+.chair-cards{
+    background: #C4C4C4;
     display:flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    padding: 0 0 70px 0;
 }
 
 .card{
@@ -155,13 +160,14 @@ ul{
     flex-direction: column;
     align-items: center;
     padding: 25px;
-    -webkit-box-shadow: 10px 10px 5px 0p #FFFFFF(0,0,0,0.75);
+    /* -webkit-box-shadow: 10px 10px 5px 0p #FFFFFF(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px #FFFFFF(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px#FFFFFF(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px#FFFFFF(0,0,0,0.75); */
     max-width: 250px;
     min-width: 250px;
     width: 100%;
     box-sizing: border-box;
+    background-color: #FFFFFF;
 }
 
 .card > img{
@@ -192,11 +198,10 @@ ul{
 }
 
 .blocks{
-    background: #EFEFEF;
+    background: #C4C4C4;;
     color: #fff;
     gap: 30px;
-    margin-top: 100px;
-    padding: 25px 41px;
+    padding: 40px 41px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,28 +256,27 @@ ul{
 }
 
 .block_impuls{
-    background: #EFEFEF;
+    background: #C4C4C4;;
     display: flex;
     justify-content: center;
-    margin-top: 70px;
 }
 
 .impuls_list{
     background: #FFFFFF;
     display: flex;
-    max-width: 1084px;
     flex-wrap: wrap;
+    max-width: 1110px;
+    gap: unset;
 }
 
 .impuls_item{
-    padding: 20px 40px;
-    border: 1px solid #EFEFEF;
+    padding: 35px 63px;
+    border: 1px solid #C4C4C4;
 }
 
 .viewed{
-    background: #EFEFEF;
-    margin-left: 290px;
-    padding: 38px 0;
+    background: #C4C4C4;;
+    padding: 80px 0 38px 0;
 }
 
 .viewed-item{
@@ -280,6 +284,8 @@ ul{
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .categories{
@@ -287,7 +293,7 @@ ul{
     gap: 140px;
     display: flex;
     justify-content: center;
-    background: #E5E5E5;
+    padding: 0 0 60px 0;
 }
 
 .popular{
@@ -295,7 +301,6 @@ ul{
     font-size: 16px;
     line-height: 140.62%;
     color: #000000;
-    margin-top: 140px;
     padding: 55px 0;
 }
 
@@ -312,6 +317,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     padding: 50px 0;
+    border: 1px solid #C4C4C4;
 }
 
 .SNS{
@@ -342,12 +348,12 @@ ul{
 }
 
 .info{
-    background: #EFEFEF;
+    background: #C4C4C4;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: #828282;
     display: flex;
     justify-content: space-around;
-    padding: 40px 0;
+    padding: 25px 0;
 }
